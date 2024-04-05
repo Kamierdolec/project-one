@@ -58,11 +58,12 @@ html {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  height: 350vh;
 }
 
 header {
   height: 100vh;
-  background: url("../assets/img/bg_header.webp") center/cover;
+  background: url("../assets/img/bg_header.webp") center/cover fixed;
   color: whitesmoke;
   display: flex;
   align-items: center;
@@ -70,6 +71,19 @@ header {
 }
 header h1 {
   font-size: 3.8rem;
+  font-weight: 300px;
+  text-align: center;
+  line-height: 5.4rem;
+}
+@media screen and (min-width: 800px) {
+  header h1 {
+    font-size: 8rem;
+  }
+}
+@media screen and (min-width: 800px) {
+  header h1 {
+    font-size: 12rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
